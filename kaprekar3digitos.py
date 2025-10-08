@@ -1,3 +1,4 @@
+#rafael garcia 
 print("CONSTANTE DE KAPREKAR 3 DIGITOS")
 numero = input("Ingresa un número de 3 dígitos: ")
 
