@@ -12,3 +12,5 @@ else:
         print(f"{num} es primo")
     else:
         print(f"{num} no es primo")
+        
+        #esto solo es una prueba jaja saludos
