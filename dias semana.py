@@ -23,3 +23,4 @@ def dias_hasta_diciembre10(fecha_str):
 fecha_usuario = input("Ingresa una fecha (formato AAAA-MM-DD): ")
 dias_hasta_diciembre10(fecha_usuario)
 
+#agregar dias para semana de la informatica
