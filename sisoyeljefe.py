@@ -1,6 +1,5 @@
 import os
 
-# Diccionario con las opciones y sus archivos
 programas = {
     "1": "multiplicacion.py",
     "2": "numero_azar.py",
@@ -25,7 +24,7 @@ while True:
     opcion = input("Elige una opción: ")
 
     if opcion == "8":
-        print("👋 Saliendo del programa...")
+        print(" Saliendo del programa...")
         break
 
     elif opcion in programas:
@@ -33,6 +32,6 @@ while True:
         if os.path.exists(archivo):
             os.system(f"python {archivo}")
         else:
-            print(f"⚠️ No se encontró el archivo '{archivo}'. Asegúrate de que esté en la misma carpeta.")
+            print(f" No se encontró el archivo '{archivo}'. Asegúrate de que esté en la misma carpeta.")
     else:
-        print("❌ Opción no válida. Intenta de nuevo.")
+        print(" Opción no válida. Intenta de nuevo.")
