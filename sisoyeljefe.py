@@ -1,3 +1,4 @@
+#Alexis Ortinez
 import os
 
 programas = {
@@ -7,7 +8,8 @@ programas = {
     "4": "semana_info.py",
     "5": "primos.py",
     "6": "bisiesto.py",
-    "7": "salario.py"
+    "7": "salario.py",
+    "8": "gad.py"
 }
 
 while True:
@@ -19,11 +21,12 @@ while True:
     print("5. Números primos")
     print("6. Año bisiesto")
     print("7. Salario por hora")
-    print("8. Salir")
+    print("8. Gad")
+    print("9. Salir")
 
     opcion = input("Elige una opción: ")
 
-    if opcion == "8":
+    if opcion == "9":
         print(" Saliendo del programa...")
         break
 
