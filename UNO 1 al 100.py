@@ -8,7 +8,6 @@ if impares_si_no == 'S':
 else:
     inicio = 2
     etiqueta = "PARES"
-
 print("Tabla del", num, "con múltiplos", etiqueta, "del 1 al 100:")
 for i in range(inicio, 101, 2):
     resultado = num * i
